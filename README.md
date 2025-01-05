@@ -5,7 +5,7 @@
 ### Features & usage
 - Built on the [official image](https://github.com/kanidm/kanidm) to be used as a drop-in replacement.
 - ⚠️ Does **not** come with hardened_malloc like other Polarix containers. This container is based on Tumbleweed like upstream and not Alpine.
-- Unprivileged image: you should check your volumes' permissions (eg `/data`), default UID/GID is 3005. 
+- Unprivileged image: you should check your volumes' permissions (eg `/data`), default UID/GID is 700001. 
 
 ### Licensing
 - The code in this repository is licensed under the Apache license. 😇
