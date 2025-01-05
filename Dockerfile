@@ -1,4 +1,4 @@
-ARG UID=700001
+ARG UID=200001
 
 FROM kanidm/server
 
