@@ -2,9 +2,9 @@ ARG UID=200001
 
 FROM kanidm/server
 
-ARG UID
-
 LABEL maintainer="Thien Tran contact@tommytran.io"
+
+ARG UID
 
 RUN zypper dup -y
 
